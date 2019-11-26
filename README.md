@@ -11,3 +11,6 @@ completely front-end based and does not require a backend.
 ## How to Install & Run
 Just download the `.zip` or clone this project. Then open `index.html` in your
 browser. That's it!
+
+## Resources to consider before any coding
+https://medium.com/better-programming/a-beginners-guide-to-botui-framework-for-chatbot-ui-a4e6d9a4a74
