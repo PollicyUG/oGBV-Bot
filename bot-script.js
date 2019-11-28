@@ -93,7 +93,7 @@ botui.message.add({
                 type: 'html',
                 delay: 800,
                 loading: true,
-                content: '<img src="Chart-01.jpg" alt="Smiley face" height="420" width="420">'
+                content: '<img src="Chart-01.jpg" class="chart" alt="Smiley face" height="420" width="420">'
               });
           
           
