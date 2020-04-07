@@ -2368,7 +2368,7 @@ ol li {
   width: 50px;
   height: 30px;
   line-height: 30px;
-  background: #c94663 url("images/bg01.png");
+  background: #f4551a url("images/bg01.png");
   border-radius: 5px;
   color: #fff;
   text-align: center;
@@ -2379,7 +2379,7 @@ ol li {
 }
 
 #titleBar .toggle:active:before {
-  background-color: #d95673;
+  background-color: #f4551a;
 }
 
 #sidebar {
