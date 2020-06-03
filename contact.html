@@ -39,40 +39,23 @@
       integrity="sha384-6OIrr52G08NpOFSZdxxz1xdNSndlD4vdcf/q2myIUVO0VsqaGHJsB0RaBE01VTOY"
       crossorigin="anonymous"
     ></script>
-
-    <!-- BOT UI CDN -->
-    <link
-      rel="stylesheet"
-      href="https://unpkg.com/botui@0.3.9/build/botui.min.css"
-    />
-    <link rel="stylesheet" href="style.css" />
-    <link rel="stylesheet" href="jumbotron.css" />
-    <link
-      rel="stylesheet"
-      href="https://unpkg.com/botui@0.3.9/build/botui-theme-default.css"
-    />
   </head>
   <body class="is-preload">
     <!-- Sidebar -->
-    <div id="sidebar" class="sidebar">
+    <div id="sidebar">
       <!-- Logo -->
       <div class="site-header__logo" role="banner">
-        <a
-          class="site-header__logo-link"
-          href="index.html"
-          rel="home"
-          title="OGBV Bot"
-        >
+        <a class="site-header__logo-link" href="#" rel="home" title="OGBV Bot">
           <img src="./images/Logo1.png" alt="Pollicy OGBV Bot" />
         </a>
       </div>
-      <h1 id="logo"><a href="index5.html">OGBV Bot</a></h1>
+      <h1 id="logo"><a href="#">OGBV Bot</a></h1>
 
       <!-- Nav -->
       <nav id="nav">
         <ul>
-          <li class="current">
-            <a href="index.html"><i class="fas fa-home fa-1x"></i> Home</a>
+          <li>
+            <a href="index5.html"><i class="fas fa-home fa-1x"></i> Home</a>
           </li>
           <li>
             <a href="report.html"><i class="fas fa-copy fa-1x"></i> Report</a>
@@ -95,7 +78,7 @@
               ><i class="fas fa-question"></i> Take Action</a
             >
           </li>
-          <li>
+          <li class="current">
             <a href="contact.html"
               ><i class="fas fa-paper-plane"></i> Contact Us</a
             >
@@ -130,7 +113,7 @@
 
     <!-- Content -->
     <div id="content">
-      <div class="inner" style="border-bottom: hidden;">
+      <div class="inner">
         <!-- Post -->
         <article class="box post post-excerpt">
           <header>
@@ -142,21 +125,77 @@
               Internet
             </p>
           </header>
-
-          <!-- <div class="jumbotron"> -->
-          <!-- <div class="container"> -->
-          <!-- <div class="row"> -->
-          <!-- <div class="col-1"> -->
-          <div id="my-botui-app">
-            <bot-ui></bot-ui>
-          </div>
-          <!-- </div> -->
-          <!-- </div> -->
-          <!-- </div> -->
-          <!-- </div> -->
+          <a href="#" class="image featured"
+            ><img src="images/pic01.jpg" alt=""
+          /></a>
         </article>
       </div>
       <!-- Footer -->
+      <footer class="site-footer">
+        <div class="container">
+          <div class="row footer-bottom-row">
+            <div class="col-lg-6">
+              <div class="row">
+                <div class="col">
+                  <div class="footer-column footer-logo-column">
+                    <h3>The Initiative</h3>
+                    <p>
+                      OGBV(Overcoming Gender Based Violence) is an initiative of
+                      Pollicy Organization aimed at finding out the lived
+                      experiences of women in digital spaces. Realities of the
+                      physical world are often mimicked and even amplified in
+                      online spaces.
+                    </p>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="col-lg-6">
+              <div class="row">
+                <div class="col-12 col-md-6">
+                  <div class="footer-column">
+                    <h3>Helpful Links</h3>
+                    <ul>
+                      <li>
+                        <a href="#">FAQs</a>
+                      </li>
+                      <li>
+                        <a href="#">Terms of Use</a>
+                      </li>
+                      <li>
+                        <a href="#">Privacy Policy</a>
+                      </li>
+                      <li>
+                        <a href="#">Disclaimer</a>
+                      </li>
+                    </ul>
+                  </div>
+                </div>
+                <div class="col-12 col-md-6">
+                  <div class="footer-column">
+                    <h3>Contact Us</h3>
+                    <p>
+                      600 N Broad Street Suite 5 #Mailbox Middletown, DE 19709
+                      United States
+                    </p>
+                    <p>
+                      Mobile: +1 (302) 608-9025
+                    </p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="row copyrights-row mx-0">
+            <div class="container">
+              <p class="text-center">
+                © 2020 Pollicy. All Rights Reserved.
+              </p>
+            </div>
+          </div>
+        </div>
+      </footer>
     </div>
 
     <!-- Scripts -->
