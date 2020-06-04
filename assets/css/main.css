@@ -174,7 +174,6 @@ html {
 
 body {
   background-color: #e8e8e8;
-  background-image: url("images/bg02.png");
   display: -moz-flex;
   display: -webkit-flex;
   display: -ms-flex;
@@ -1879,8 +1878,7 @@ input[type="reset"],
 button,
 .button {
   cursor: pointer;
-  background-color: #c94663;
-  background-image: url("images/bg01.png");
+  /* background-color: #c94663; */
   border-radius: 0.4em;
   text-align: center;
   box-shadow: inset 0px 0px 0px 1px rgba(255, 255, 255, 0.15);
@@ -1915,7 +1913,7 @@ input[type="submit"]:hover,
 input[type="reset"]:hover,
 button:hover,
 .button:hover {
-  background-color: #d95673;
+  background-color: #777979;
 }
 
 input[type="button"]:active,
@@ -1957,7 +1955,9 @@ ul {
 }
 
 ul a {
-  /* color: #000000 !important; */
+  color: #000000 !important;
+  /* background: #e94e1b; */
+  /* background-image: linear-gradient(90deg, #e94e1b 0, #f39200 51%, #f9b907); */
 }
 
 ul li {
@@ -1995,7 +1995,6 @@ ol li {
   text-decoration: none;
   color: inherit;
   background-color: #e8e8e8;
-  background-image: url("images/bg02.png");
   color: #565656;
   margin: 0 0.4em 0 0;
   border-radius: 0.4em;
@@ -2006,93 +2005,7 @@ ol li {
   box-shadow: inset 0 0.075em 0.25em 0 rgba(0, 0, 0, 0.1);
 }
 
-.pagination .pages a:hover {
-  background-color: #dadada;
-}
-
-.pagination .pages a.active {
-  background-color: #364050;
-  color: #fff;
-  box-shadow: none;
-  text-shadow: -1px -1px 0px rgba(0, 0, 0, 0.5);
-}
-
 /* Box */
-
-.box.calendar .inner {
-  position: relative;
-  background-color: rgba(0, 0, 0, 0.15);
-  border-radius: 0.4em;
-  padding: 0.75em 0.5em 0.75em 0.5em;
-  box-shadow: 0 0 0 1px rgba(255, 255, 255, 0.05),
-    inset 0 0 0.25em 0 rgba(0, 0, 0, 0.25);
-}
-
-.box.calendar caption {
-  font-weight: 700;
-  color: #fff;
-  margin: 0 0 0.25em 0;
-}
-
-.box.calendar tbody tr:nth-child(2n + 2) {
-  background: transparent;
-}
-
-.box.calendar table {
-  margin: 0 auto;
-}
-
-.box.calendar td {
-  cursor: default;
-  padding: 0.35em 0 0.35em 0;
-  border-top: solid 1px rgba(0, 0, 0, 0.25);
-  box-shadow: inset 0px 1px 0px 0px rgba(255, 255, 255, 0.075);
-  text-align: center;
-}
-
-.box.calendar th {
-  cursor: default;
-  padding: 0.35em 0 0.35em 0;
-  border-top: solid 1px rgba(0, 0, 0, 0.25);
-  box-shadow: inset 0px 1px 0px 0px rgba(255, 255, 255, 0.075);
-  font-weight: 700;
-  color: #fff;
-  text-align: center;
-}
-
-.box.calendar td a,
-.box.calendar td span {
-  display: block;
-  margin: 0 auto;
-  width: 1.5em;
-  height: 1.5em;
-  text-align: center;
-  line-height: 1.4em;
-  border-radius: 0.4em;
-  -moz-transition: background-color 0.25s ease-in-out;
-  -webkit-transition: background-color 0.25s ease-in-out;
-  -ms-transition: background-color 0.25s ease-in-out;
-  transition: background-color 0.25s ease-in-out;
-  text-decoration: none;
-}
-
-.box.calendar td a {
-  color: #fff;
-  font-weight: 700;
-}
-
-.box.calendar td a:hover {
-  background-color: rgba(200, 225, 255, 0.1);
-  color: #fff;
-}
-
-.box.calendar td.today a {
-  background-color: #c94663;
-  background-image: url("images/bg01.png");
-  box-shadow: inset 0px 0px 0px 1px rgba(255, 255, 255, 0.15),
-    0 0.025em 0.15em 0em rgba(0, 0, 0, 0.25);
-  color: #fff !important;
-}
 
 .box.post {
   position: relative;
@@ -2285,14 +2198,24 @@ ol li {
 }
 
 #nav li.current a {
-  background-color: rgba(0, 0, 0, 0.15) !important;
+  margin-right: -30px;
+  padding-left: 40px;
+  margin-left: -30px;
+  font-size: 25px;
+  background-image: linear-gradient(90deg, #e94e1b 0, #f39200 51%, #f9b907);
+  background: #e94e1b;
+  /* background-color: rgba(0, 0, 0, 0.15) !important; */
   box-shadow: 0 0 0 1px rgba(255, 255, 255, 0.05),
     inset 0 0 0.25em 0 rgba(0, 0, 0, 0.25);
   font-weight: 700;
-  color: #fff;
+  color: #fff !important;
 }
 
 #nav li:hover a {
+  background-image: linear-gradient(90deg, #e94e1b 0, #f39200 51%, #f9b907);
+  margin-right: -30px;
+  padding-left: 40px;
+  margin-left: -30px;
   background-color: rgba(255, 255, 255, 0.1);
   color: #fff;
 }
@@ -2315,7 +2238,7 @@ ol li {
   top: 0;
   width: 100%;
   z-index: 10001;
-  background: #364050 url("images/bg01.png");
+  background: #364050;
 }
 
 #titleBar .title {
@@ -2368,7 +2291,7 @@ ol li {
   width: 50px;
   height: 30px;
   line-height: 30px;
-  background: #f4551a url("images/bg01.png");
+  background: #f4551a;
   border-radius: 5px;
   color: #fff;
   text-align: center;
@@ -2384,13 +2307,13 @@ ol li {
 
 #sidebar {
   color: rgba(255, 255, 255, 0.55);
-  text-shadow: -1px -1px 0px rgba(0, 0, 0, 0.5);
+  /* text-shadow: -1px -1px 0px rgba(0, 0, 0, 0.5); */
   width: 14em;
   padding: 3em 1.35em 1em 1.15em;
-  background: #f28841 url("images/bg01.png");
-  overflow-y: auto;
+  /* background: #fffffc url("images/bg01.png"); */
+  /* overflow-y: auto; */
   left: 0;
-  box-shadow: inset -0.1em 0em 0.35em 0em rgba(0, 0, 0, 0.15);
+  /* box-shadow: inset -0.1em 0em 0.35em 0em rgba(0, 0, 0, 0.15); */
   -moz-order: -1;
   -webkit-order: -1;
   -ms-order: -1;
@@ -2415,7 +2338,7 @@ ol li {
 #sidebar nav {
   position: relative;
   margin: 0 0 0 0;
-  font-size: 0.9em;
+  font-size: 15px;
 }
 
 #sidebar section:before,
@@ -2445,7 +2368,7 @@ ol li {
 #sidebar h4,
 #sidebar h5,
 #sidebar h6 {
-  color: #fff;
+  color: #000000;
 }
 
 #sidebar header {
@@ -2457,7 +2380,6 @@ ol li {
 #content {
   position: relative;
   background-color: #fff;
-  background-image: url("images/bg02.png");
   width: 100%;
   -moz-flex-grow: 1;
   -webkit-flex-grow: 1;
@@ -2479,7 +2401,7 @@ ol li {
 /* Copyright */
 
 #copyright {
-  color: #fff;
+  color: #000000;
   list-style: none;
   padding-bottom: 2em;
   padding-left: 0;
@@ -2510,8 +2432,8 @@ ol li {
 /* Logo */
 .site-header__logo {
   padding-bottom: 10px;
-  margin-left: 30px;
-  width: 100px;
+  /* margin-left: 30px; */
+  width: 200px;
 }
 .site-header__logo img {
   display: block;
@@ -2535,9 +2457,61 @@ ol li {
   text-decoration: none;
   list-style-type: none;
 }
+.page-header img {
+  display: block;
+  width: 45%;
+  padding-top: 20px;
+}
+
+.page-header h2 {
+  padding-top: 30px;
+  line-height: 1.125em;
+}
+.page-header h2 p {
+  line-height: 1.125em;
+  font-size: 2rem;
+  font-weight: 700;
+  text-transform: uppercase;
+}
+
+/* styling the faq page */
+.faq-questions ol li {
+  margin-top: 2rem;
+  font-weight: 600;
+  color: #000;
+}
+.faq-questions ol p {
+  font-family: inherit;
+  font-size: 1rem;
+  font-weight: normal;
+  line-height: 1.6;
+  margin-bottom: 1.25rem;
+  text-rendering: optimizeLegibility;
+}
+
 /* Desktop */
 
 @media screen and (min-width: 737px) {
+  /* Fixing the overflow on the index page */
+  .sidebar {
+    position: sticky;
+  }
+
+  #my-botui-app {
+    overflow: hidden;
+    position: sticky;
+  }
+
+  /* Other Page headers */
+  .page-header {
+    position: relative;
+    height: 440px;
+    padding: 0;
+  }
+  .page-header h2 {
+    padding-top: 100px;
+  }
+
   /* Basic */
 
   body {
@@ -2639,7 +2613,6 @@ ol li {
   #logo a {
     display: block;
     background-color: #c94663;
-    background-image: url("images/bg01.png");
     padding: 0.875em 0.25em;
     border-radius: 0.2em;
     text-align: center;
@@ -2649,15 +2622,16 @@ ol li {
     color: #fff;
   }
   .site-header__logo {
-    margin-left: 0px;
+    margin-left: -35px;
     margin-right: 0px;
-    width: 200px;
+    width: 250px;
   }
 
   /* Content */
 
   #content {
     box-shadow: 0 0 0.25em 0em rgba(0, 0, 0, 0.25);
+    width: 50%;
   }
 
   /* Copyright */
@@ -2678,9 +2652,15 @@ ol li {
   }
 }
 @media (min-width: 1024px) {
+  /* Page header */
+  .page-header {
+    position: relative;
+    height: 440px;
+    padding: 0;
+  }
   .site-header__logo {
-    margin-left: -10px;
-    width: 200px;
+    margin-left: -25px;
+    width: 230px;
     height: auto;
   }
   #logo {
@@ -2694,6 +2674,12 @@ ol li {
 /* Wide */
 
 @media screen and (min-width: 1201px) {
+  /* Page header */
+  .page-header {
+    position: relative;
+    height: 440px;
+    padding: 0;
+  }
   /* Basic */
 
   body {
@@ -2732,7 +2718,6 @@ ol li {
     width: 5.5em;
     overflow: hidden;
     background-color: #fff;
-    background-image: url("images/bg02.png");
     left: -10.5em;
     top: 0;
     padding: 1.5em 1em 1.5em 1em;
@@ -2799,6 +2784,12 @@ ol li {
 /* Narrow */
 
 @media screen and (min-width: 737px) and (max-width: 1200px) {
+  /*Page header */
+  .page-header {
+    position: relative;
+    height: 440px;
+    padding: 0;
+  }
   /* Basic */
 
   body {
@@ -2871,13 +2862,20 @@ ol li {
   /* Content */
 
   #content {
-    padding: 2em 3em 6em 3em;
+    /* padding: 2em 3em 6em 3em; */
   }
 }
 
 /* Narrower */
 
 @media screen and (min-width: 737px) and (max-width: 1000px) {
+  /* Page Header */
+  .page-header {
+    position: relative;
+    height: 440px;
+    padding: 0;
+  }
+
   /* Basic */
 
   body {
@@ -2921,6 +2919,12 @@ ol li {
 /* Mobile */
 
 @media screen and (max-width: 736px) {
+  /* page header */
+  .page-header {
+    position: relative;
+    height: 440px;
+    padding: 0;
+  }
   /* Basic */
 
   body,
@@ -3049,7 +3053,11 @@ ol li {
 
   #content {
     margin-top: 44px;
-    padding: 3em 20px 2em 20px;
+    padding: 3em 1px 2em 1px;
+  }
+
+  #content > .inner {
+    padding: 2em 1em 2em 1em;
   }
 
   /* Sidebar */
@@ -3080,11 +3088,17 @@ ol li {
 /* Off-Canvas Sidebar */
 
 @media screen and (max-width: 1000px) {
+  /* page header */
+  .page-header {
+    position: relative;
+    height: 440px;
+    padding: 0;
+  }
   /* Basic */
 
   html,
   body {
-    overflow-x: hidden;
+    overflow-x: auto;
   }
 
   /* Content */
