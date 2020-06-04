@@ -38,13 +38,16 @@ vv .wrapper1 {
 }
 
 .botui-app-container {
-  padding-right: 4px;
-  padding-left: 4px;
+  padding-right: 50px;
+  padding-left: 50px;
+  width: 80%;
   /* background-color: #ebebeb; */
 }
 .botui-container {
   background-color: inherit;
-  width: 1200px;
+  margin-left: 50px;
+  margin-right: 50px;
+  width: 80%;
   /* background-color: #ebebeb; */
 }
 
