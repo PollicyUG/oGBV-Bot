@@ -6,7 +6,7 @@
 -->
 <html>
   <head>
-    <title>Pollicy | OGBV Bot</title>
+    <title>Privacy Policy-Pollicy | OGBV Bot</title>
     <meta charset="utf-8" />
     <meta
       name="viewport"
@@ -39,22 +39,10 @@
       integrity="sha384-6OIrr52G08NpOFSZdxxz1xdNSndlD4vdcf/q2myIUVO0VsqaGHJsB0RaBE01VTOY"
       crossorigin="anonymous"
     ></script>
-
-    <!-- BOT UI CDN -->
-    <link
-      rel="stylesheet"
-      href="https://unpkg.com/botui@0.3.9/build/botui.min.css"
-    />
-    <link rel="stylesheet" href="style.css" />
-    <link rel="stylesheet" href="jumbotron.css" />
-    <link
-      rel="stylesheet"
-      href="https://unpkg.com/botui@0.3.9/build/botui-theme-default.css"
-    />
   </head>
   <body class="is-preload">
     <!-- Sidebar -->
-    <div id="sidebar" class="sidebar">
+    <div id="sidebar">
       <!-- Logo -->
       <div class="site-header__logo" role="banner">
         <a
@@ -66,79 +54,70 @@
           <img src="./images/Logo1.png" alt="Pollicy OGBV Bot" />
         </a>
       </div>
-      <h1 id="logo"><a href="index5.html">OGBV Bot</a></h1>
+      <h1 id="logo"><a href="#">OGBV Bot</a></h1>
 
       <!-- Nav -->
       <nav id="nav">
         <ul>
-          <li class="current">
-            <a href="index.html"> Home</a>
+          <li>
+            <a href="index.html"><i class="fas fa-home fa-1x"></i> Home</a>
           </li>
           <li>
-            <a href="report.html">Report</a>
+            <a href="report.html"><i class="fas fa-copy fa-1x"></i> Report</a>
           </li>
           <li>
             <a href="legal.html"
-              >Legal Analysis</a
+              ><i class="fas fa-briefcase"></i> Legal Analysis</a
             >
           </li>
           <li>
             <a href="online.html"
-              >Online Safety</a
+              ><i class="fas fa-signal"></i> Online Safety</a
             >
           </li>
           <li>
-            <a href="data.html">Data</a>
+            <a href="data.html"><i class="fas fa-database"></i> Data</a>
           </li>
           <li>
             <a href="action.html"
-              >Take Action</a
+              ><i class="fas fa-question"></i> Take Action</a
             >
           </li>
           <li>
             <a href="contact.html"
-              >Contact Us</a
+              ><i class="fas fa-paper-plane"></i> Contact Us</a
             >
           </li>
         </ul>
       </nav>
-    </div>
-    <!-- Content -->
-    <div id="content">
-      <!-- Page header -->
-      <section class="page-header" style="background-color: #f8e59a;">
-        <div class="container">
-          <div class="row">
-            <div class="col-12 col-md-6 col-lg-8">
-              <img src="./images/top_1.png" />
-            </div>
-            <div class="col-12 col-md-6 col-lg-4">
-              <h2 class="page-header__title">
-                <h1>Alternate Realities, Alternate Internets</h1>
-                <p>
-                  Feminist Research for a Feminist Internet
-                </p>
-              </h2>
-            </div>
-          </div>
-        </div>
+      <!-- Social Contacts -->
+      <section class="box recent-comments">
+        <header>
+          <h2>Follow Us</h2>
+        </header>
+        <ul>
+          <li>
+            <a href="https://facebook.com/pollicy/" target="_blank"
+              ><i class="fab fa-facebook fa-1x"></i> Facebook</a
+            >
+          </li>
+          <li>
+            <a href="https://twitter.com/PollicyOrg" target="_blank"
+              ><i class="fab fa-twitter-square"></i> Twitter</a
+            >
+          </li>
+        </ul>
       </section>
 
-          <!-- <div class="jumbotron"> -->
-          <!-- <div class="container"> -->
-          <!-- <div class="row"> -->
-          <!-- <div class="col-1"> -->
-          <div id="my-botui-app">
-            <bot-ui></bot-ui>
-          </div>
-          <!-- </div> -->
-          <!-- </div> -->
-          <!-- </div> -->
-          <!-- </div> -->
-        </article>
-      </div>
-      <!-- Footer -->
+      <!-- Copyright -->
+      <ul id="copyright">
+        <li>2020 &copy; Pollicy</li>
+        <li>All Rights Reserved.</li>
+      </ul>
     </div>
+
+    <!-- Content -->
+    <div id="content"></div>
 
     <!-- Scripts -->
     <script src="assets/js/jquery.min.js"></script>
