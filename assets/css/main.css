@@ -2211,6 +2211,15 @@ ol li {
   color: #fff !important;
 }
 
+#nav li.menus a {
+  margin-right: -30px;
+  padding-left: 40px;
+  margin-left: -30px;
+  font-size: 20px;  
+  font-weight: 700;
+  color: #474747 !important;
+}
+
 #nav li:hover a {
   background-image: linear-gradient(90deg, #e94e1b 0, #f39200 51%, #f9b907);
   margin-right: -30px;

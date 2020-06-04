@@ -91,7 +91,7 @@ button.botui-actions-buttons-button {
 
 @media screen and (max-width: 480px) {
   body {
-    background-color: yellow;
+    background-color: #eb9534;
     line-height: 60%;
     align-content: center;
   }
@@ -157,7 +157,7 @@ button.botui-actions-buttons-button {
   .botui-message-content.human {
     padding: 10px 10px;
     margin-right: 30px;
-    background-color: #f7ff61;
+    background-color: #eb9534;
     color: #404040;
     float: right;
     font-size: 10px;
@@ -203,7 +203,7 @@ button.botui-actions-buttons-button {
   .botui-message-content.human {
     padding: 10px 10px;
     margin-right: 30px;
-    background-color: #f7ff61;
+    background-color: #eb9534;
     color: #404040;
     float: right;
     font-size: 15px;
@@ -296,7 +296,7 @@ button.botui-actions-buttons-button {
   .botui-message-content.human {
     padding: 10px 10px;
     margin-right: 30px;
-    background-color: #f7ff61;
+    background-color: #eb9534;
     color: #404040;
     float: right;
     font-size: 15px;
