@@ -113,6 +113,7 @@ button.botui-actions-buttons-button {
   .chart {
     width: 200px;
     height: 220px;
+    background-color: #fff;
   }
 
   button.botui-actions-buttons-button {
@@ -149,6 +150,7 @@ button.botui-actions-buttons-button {
   .chart {
     width: 250px;
     height: 220px;
+    background-color: #fff;
   }
 
   button.botui-actions-buttons-button {

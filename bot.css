@@ -136,6 +136,7 @@ button.botui-actions-buttons-button {
   .chart {
     width: 200px;
     height: 220px;
+    background-color: #fff;
   }
   nav {
     width: 100%;
@@ -182,6 +183,7 @@ button.botui-actions-buttons-button {
   .chart {
     width: 250px;
     height: 220px;
+    background-color: #fff;
   }
   nav {
     width: 100%;
@@ -228,6 +230,7 @@ button.botui-actions-buttons-button {
   .chart {
     width: 400px;
     height: 350px;
+    background-color: #fff;
   }
   /* nav {
     width: 100%;
@@ -272,6 +275,7 @@ button.botui-actions-buttons-button {
   .chart {
     width: 650px;
     height: 550px;
+    background-color: #fff;
   }
   /* nav {
     width: 100%;
