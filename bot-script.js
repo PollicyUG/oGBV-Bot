@@ -202,7 +202,7 @@ botui.message
       delay: 4000,
       loading: true,
       content:
-        "For example, Amnesty International researchers found that black women journalists and politicians in the US and UK were 84% more likely to be the target of hate speech online compared to their white counterparts.",
+        "When we look at issues of race, Amnesty International researchers found that black women journalists and politicians in the US and UK were 84% more likely to be the target of hate speech online compared to their white counterparts.",
     });
   })
   .then(function (index) {
