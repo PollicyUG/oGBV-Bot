@@ -476,7 +476,7 @@ return botui.message.add({ type: "html", delay: 1000, loading: true, content: me
     delay: 800,
     loading: true,
     content:
-      '<img src="https://res.cloudinary.com/dbjmgr0gb/image/upload/v1591609647/oGBV/Women-Response.png" class="chart" alt="Smiley face" background-color=#ffffff height="672" width="500">',
+      '<img src="https://res.cloudinary.com/dbjmgr0gb/image/upload/v1591609647/oGBV/Women-Response.png" class="chart" alt="Smiley face" background-color=#ffffff height="800" width="500">',
   });
 })
 .then(function (index) {
